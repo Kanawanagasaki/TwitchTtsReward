@@ -1,0 +1,24 @@
+{
+  "name": "twitchttsreward",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "develop": "webpack-dev-server --mode development",
+    "watch": "webpack watch --mode production",
+    "build": "webpack --mode production"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/tmi.js": "^1.8.3",
+    "ts-loader": "^9.4.4",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  },
+  "dependencies": {
+    "tmi.js": "^1.8.5"
+  }
+}
